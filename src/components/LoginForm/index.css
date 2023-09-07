@@ -1,0 +1,126 @@
+@media (min-width: 768px) {
+  .login-container {
+    display: flex;
+    width: 100vw;
+  }
+}
+
+@media (max-width: 767px) {
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .desktop-login-image {
+    width: 50%;
+    height: 100vh;
+  }
+  .mobile-login-image {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .desktop-login-image {
+    display: none;
+  }
+  .mobile-login-image {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  .user-inputs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6f7f5;
+    width: 50%;
+  }
+  .form-container {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 35vw;
+    background-color: #ffffff;
+  }
+}
+
+@media (max-width: 768px) {
+  .user-inputs-container {
+    background-color: #ffffff;
+  }
+  .form-container {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+.website-logo {
+  height: 60px;
+  width: 150px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+.label-style {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+.input-style {
+  outline-color: #fc7303;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+  background-color: #d6d4d2;
+}
+
+.show-password-container {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.checkbox-style {
+  height: 18px;
+  width: 18px;
+  margin-right: 5px;
+}
+
+.error-message {
+  color: #e01010;
+  font-size: 15px;
+  margin-top: 0px;
+}
+
+.login-button {
+  background-color: #0070c1;
+  color: #ffffff;
+  height: 35px;
+  width: 60%;
+  border-radius: 5px;
+  border: none;
+}

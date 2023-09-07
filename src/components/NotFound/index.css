@@ -1,0 +1,53 @@
+.notFound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+@media (max-width: 767px) {
+  .notFound-image {
+    width: 50%;
+    height: 30%;
+  }
+}
+
+@media (min-width: 768px) {
+  .notFound-image {
+    width: 35%;
+    height: 50%;
+  }
+}
+
+.mobile-heading {
+  color: #000000;
+  font-size: 25px;
+}
+
+@media (max-width: 767px) {
+  .notFound-description {
+    color: #575859;
+    font-size: 14px;
+    width: 75%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .notFound-description {
+    color: #575859;
+    font-size: 20px;
+    width: 40%;
+    text-align: center;
+  }
+}
+
+.notFound-button {
+  height: 35px;
+  width: 150px;
+  color: #ffffff;
+  background-color: #0070c1;
+  border-radius: 5px;
+  border: none;
+}
